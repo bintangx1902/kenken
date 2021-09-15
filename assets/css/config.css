@@ -1,0 +1,21 @@
+body {
+    background: #FFF8F0;
+    background: -webkit-linear-gradient(to right, #FFF8F0, #9DD9D2);
+    background: linear-gradient(to right, #FFF8F0, #9DD9D2);
+}
+
+.row {
+    width: 100% !important;
+}
+
+.mybg {
+    background-color: #FFD29D !important;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}

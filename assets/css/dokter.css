@@ -1,0 +1,18 @@
+.mw-80 {
+    max-width: 80%;
+}
+
+.pic {
+    min-height: 3.5em !important;
+}
+
+@media (max-width:767px) {
+    .pic {
+        min-height: 1.5em !important;
+    }
+}
+
+#comments1 {
+    max-height: 400px;
+    overflow-y: auto;
+}
