@@ -8,9 +8,9 @@
             <div class="col-sm-4 col-md-3 item ">
                 <h4>Link Cepat</h4>
                 <ul>
-                    <li><a href="# ">Company</a></li>
-                    <li><a href="# ">Team</a></li>
-                    <li><a href="# ">Legacy</a></li>
+                    <li><a href="daftar-dokter.php">Daftar Psikiater</a></li>
+                    <li><a href="tutorial.php">Cara Pembayaran</a></li>
+                    <li><a href="">Legacy</a></li>
                 </ul>
             </div>
             <div class="col-sm-4 col-md-3 item ">
