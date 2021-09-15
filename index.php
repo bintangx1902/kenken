@@ -11,7 +11,7 @@
 
     <?php include 'head.php'; ?>
 
-    <div class="jumbotron mb-0 bg-transparent">
+    <div class="jumbotron mb-0 bg-transparent mybg">
         <div class="container d-flex flex-column align-items-center">
             <img loading='lazy' src="assets/img/6151.webp" alt="gambar membaca santai " id='imghai' class="img-fluid mb-5 h-50 w-50">
             <h1 class="display-4 bold">Kesehatan Dalam Belajar</h1>
@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <div class="bg-transparent pt-5 text-dark mybg" id="baca">
+    <div class="bg-transparent pt-5 text-dark " id="baca">
         <div class="container py-5">
             <div class="row " id="cr">
                 <div class="col-lg-6 mt-5">
@@ -33,52 +33,54 @@
         </div>
     </div>
 
-    <div class="container py-5" id="manfaat">
-        <div class="row text-center text-dark mb-5">
-            <div class="col-lg-8 mx-auto">
-                <h2 class="display bold">Manfaat Apa Saja yang Akan Didapat?</h2>
-                <p class="mt-5 ">Banyak sekali manfaat yang dapat dirasakan bila kita belajar dengan sehat. Terutama pada daya ingat dan rasa ingin belajar lagi dan lagi</p>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-7 mx-auto">
-                    <ul class="timeline text-dark">
-                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                            <div class="timeline-arrow"></div>
-                            <h2 class="h5 mb-0">Mampu Meningkatkan Potensi Diri</h2><span class="small text-gray">PowerUps</span>
-                            <p class="text-small mt-2 font-weight-light">Pada masa pandemi ini banyak pelajar kehilangan motivasi dalam belajar. Apa penyebabnya?</p>
-                            <p class="text-small mt-2 font-weight-light">Penyebab utamanya adalah karena jam belajar yang kacau dan tidak bisa berkomunikasi secara langsung(bukan via online conferece). Dengan mengatur cara belajar luring, kamu bisa mendapatkan potensi besar, karena disaat belajar
-                                dirumah kamu tidak butuh waktu untuk perjalanan. Waktu sengganmu bisa kamu isi dengan melakukan suatu eksperimen, membaca buku, berolahraga dll. </p>
-                        </li>
-                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                            <div class="timeline-arrow"></div>
-                            <h2 class="h5 mb-0">Daya Ingat Semakin Kuat</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>SuperPower</span>
-                            <p class="text-small mt-2 font-weight-light">Masih Berkaitan pada poin pertama, Bila kamu sering berlatih dengan membaca buku atau hal yang berkaitan dengan <em><a href="#metode">tutorial-build-teardown-rebuild</a></em></p>
-                            <p class="text-small mt-2 font-weight-light">Maka kamu sudah meningkatkan level daya ingatmu secara perlahan dan pasti. Namun, hal ini harus terus dilakukan ya......, karena apabila kamu tidak melakukanya lagi setidaknya 2 hari, daya ingatmu akan menurun</p>
-                        </li>
-                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                            <div class="timeline-arrow"></div>
-                            <h2 class="h5 mb-0">Menambah Rasa Ingin Tahu</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>MagicalUpgrade</span>
-                            <p class="text-small mt-2 font-weight-light">Berawal dari kamu yang malasa membaca. Kalau kamu malas maka kamu juga bisa kehilangan rasa ingin tahumu. Membaca tak hanya buku pelajaran saja. Kamu bisa membaca berbagai macam buku, komik, novel, manga, pengetahuan umum dalam
-                                bentuk nyata maupun secara daring</p>
-                            <p class="text-small mt-2 font-weight-light">Rasa ingin tahu kamu akan bertambah bila kamu seiring kamu membaca buku. Misal kamu membaca komik, bab yang kamu baca telah selesai dan kamu akan penasaran dengan bab selanjutnya.</p>
-                        </li>
-                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                            <div class="timeline-arrow"></div>
-                            <h2 class="h5 mb-0">Meningkatkan Kemampuan Mengolah Informasi</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>Amazing</span>
-                            <p class="text-small mt-2 font-weight-light">Seiring kamu yang semakin rajin belajara dengan pola yang sehat maka kamu bisa mengolah informasi dengan baik dan cepat</p>
-                            <p class="text-small mt-2 font-weight-light">karena yang kamu pelajari bukan hanya buku pelajaran saja. Misal kamu mempelajari bahasa asing dengan menonton film agar kamu dapat memperlancar berbahasa asing. Maka, disaat ada temanmu ada yang berbicara dengan bahasa asing
-                                maka kamu bisa mengerti dan apabila temanmu membahas tentang film-film dari luar, kamu bisa ikut membicarakanya.
-                            </p>
-                        </li>
-                    </ul>
+    <div class="bg-transparent mybg">
+        <div class="container py-5" id="manfaat">
+            <div class="row text-center text-dark mb-5">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="display bold">Manfaat Apa Saja yang Akan Didapat?</h2>
+                    <p class="mt-5 ">Banyak sekali manfaat yang dapat dirasakan bila kita belajar dengan sehat. Terutama pada daya ingat dan rasa ingin belajar lagi dan lagi</p>
                 </div>
-            </div>
 
+                <div class="row">
+                    <div class="col-lg-7 mx-auto">
+                        <ul class="timeline text-dark">
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <h2 class="h5 mb-0">Mampu Meningkatkan Potensi Diri</h2><span class="small text-gray">PowerUps</span>
+                                <p class="text-small mt-2 font-weight-light">Pada masa pandemi ini banyak pelajar kehilangan motivasi dalam belajar. Apa penyebabnya?</p>
+                                <p class="text-small mt-2 font-weight-light">Penyebab utamanya adalah karena jam belajar yang kacau dan tidak bisa berkomunikasi secara langsung(bukan via online conferece). Dengan mengatur cara belajar luring, kamu bisa mendapatkan potensi besar, karena disaat belajar
+                                    dirumah kamu tidak butuh waktu untuk perjalanan. Waktu sengganmu bisa kamu isi dengan melakukan suatu eksperimen, membaca buku, berolahraga dll. </p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <h2 class="h5 mb-0">Daya Ingat Semakin Kuat</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>SuperPower</span>
+                                <p class="text-small mt-2 font-weight-light">Masih Berkaitan pada poin pertama, Bila kamu sering berlatih dengan membaca buku atau hal yang berkaitan dengan <em><a href="#metode">tutorial-build-teardown-rebuild</a></em></p>
+                                <p class="text-small mt-2 font-weight-light">Maka kamu sudah meningkatkan level daya ingatmu secara perlahan dan pasti. Namun, hal ini harus terus dilakukan ya......, karena apabila kamu tidak melakukanya lagi setidaknya 2 hari, daya ingatmu akan menurun</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <h2 class="h5 mb-0">Menambah Rasa Ingin Tahu</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>MagicalUpgrade</span>
+                                <p class="text-small mt-2 font-weight-light">Berawal dari kamu yang malasa membaca. Kalau kamu malas maka kamu juga bisa kehilangan rasa ingin tahumu. Membaca tak hanya buku pelajaran saja. Kamu bisa membaca berbagai macam buku, komik, novel, manga, pengetahuan umum dalam
+                                    bentuk nyata maupun secara daring</p>
+                                <p class="text-small mt-2 font-weight-light">Rasa ingin tahu kamu akan bertambah bila kamu seiring kamu membaca buku. Misal kamu membaca komik, bab yang kamu baca telah selesai dan kamu akan penasaran dengan bab selanjutnya.</p>
+                            </li>
+                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                                <div class="timeline-arrow"></div>
+                                <h2 class="h5 mb-0">Meningkatkan Kemampuan Mengolah Informasi</h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>Amazing</span>
+                                <p class="text-small mt-2 font-weight-light">Seiring kamu yang semakin rajin belajara dengan pola yang sehat maka kamu bisa mengolah informasi dengan baik dan cepat</p>
+                                <p class="text-small mt-2 font-weight-light">karena yang kamu pelajari bukan hanya buku pelajaran saja. Misal kamu mempelajari bahasa asing dengan menonton film agar kamu dapat memperlancar berbahasa asing. Maka, disaat ada temanmu ada yang berbicara dengan bahasa asing
+                                    maka kamu bisa mengerti dan apabila temanmu membahas tentang film-film dari luar, kamu bisa ikut membicarakanya.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
-    <div class="bg-transparent pb-5 text-dark mybg" id="metode">
+    <div class="bg-transparent pb-5 text-dark " id="metode">
         <div class="container py-5 ">
             <h1>Metode Belajar sehat</h1>
             <div class="container">
@@ -152,7 +154,7 @@
         </div>
     </div>
 
-    <div class="bg-transparent pt-5 " id="konsultasi">
+    <div class="bg-transparent pt-5 mybg" id="konsultasi">
         <div class="container py-5">
 
             <div class="row">
@@ -168,7 +170,7 @@
         </div>
     </div>
 
-    <div class="bg-transparent mybg">
+    <div class="bg-transparent ">
         <img src="assets/img/4401.png" alt="Mental Breakdown" class="img-fluid">
         <div class="container ">
             <div class="row text-center text-dark mb-5 mt-5">
