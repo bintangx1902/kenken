@@ -10,6 +10,7 @@
                 <ul>
                     <li><a href="daftar-dokter.php">Daftar Psikiater</a></li>
                     <li><a href="tutorial.php">Cara Pembayaran</a></li>
+                    <li><a href="jadwal-saya.php">Jadwal Saya</a></li>
                     <!-- <li><a href="">Legacy</a></li> -->
                 </ul>
             </div>

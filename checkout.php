@@ -24,7 +24,7 @@
         <div class="card border-0">
             <div class="card-body ">
                 <h4 class="card-title mt-1">Checkout & pembayaran</h4>
-                <form action="/kenken/">
+                <form action="/kenken/jadwal-saya.php">
                     <div class="form-group row">
                         <label for="inputEmail3" class="col-sm-2 col-form-label">Dengan Dokter : </label>
                         <div class="col-sm-10">
