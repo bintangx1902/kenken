@@ -13,6 +13,7 @@
             <div class="row">
                 <div class="col-lg-4 mx-auto my-auto">
                     <h3 class="display-4    ">Checkout</h3>
+                    <p>Kamu bisa cek cara melakukan pembayaran <a href="tutorial.php">Disini</a> </p>
                 </div>
                 <div class="col-lg-7"><img src="assets/img/2903.png" alt="Chekcout" class="img-fluid"></div>
             </div>
@@ -23,7 +24,7 @@
         <div class="card border-0">
             <div class="card-body ">
                 <h4 class="card-title mt-1">Checkout & pembayaran</h4>
-                <form action="">
+                <form action="/kenken/">
                     <div class="form-group row">
                         <label for="inputEmail3" class="col-sm-2 col-form-label">Dengan Dokter : </label>
                         <div class="col-sm-10">
@@ -70,7 +71,7 @@
                                             <input type="text" name="p" id="p" value="058889995656565" class="form-control" disabled>
                                         </div>
                                         <div class="card-body">
-                                            <input type="text" name="np" id="np" placeholder="Masukan Unique Number Pembayaran" class="form-control">
+                                            <input type="text" name="" id="np" placeholder="Masukan Unique Number Pembayaran" class="form-control">
                                         </div>
                                     </div>
                                 </div>

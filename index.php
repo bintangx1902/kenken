@@ -19,7 +19,7 @@
         </div>
     </div>
 
-    <div class="bg-transparent pt-5 text-dark " id="baca">
+    <div class="bg-transparent py-5 text-dark " id="baca">
         <div class="container py-5">
             <div class="row " id="cr">
                 <div class="col-lg-6 mt-5">

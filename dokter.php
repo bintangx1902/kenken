@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>lomba</title>
+    <title>dr. Yahya Lengkong SpKJ - Detail Psikiater</title>
     <?php include 'meta.php'; ?>
     <link rel="stylesheet" href="assets/css/dokter.css">
 </head>

@@ -2,7 +2,7 @@
 
 <head>
 
-    <title>lomba</title>
+    <title>List Dokter Psikiater</title>
     <?php include 'meta.php'; ?>
     <link rel="stylesheet" href="assets/css/dokter.css">
     <style>
