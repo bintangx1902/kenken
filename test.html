@@ -364,6 +364,40 @@
         </div>
     </div>
 
+    <div class="container my-5">
+        <h2>Bootstrap collapse panel with radio buttons</h2>
+
+        <br />
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <span>Display panel: </span>
+
+                    <input id="yes" name="collapseGroup" type="radio" data-toggle="collapse" data-target="#collapseOne" /> Yes
+
+                    <input id="no" name="collapseGroup" type="radio" data-toggle="collapse" data-target="#collapseOne" checked/> No
+
+
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title">
+                                    Header
+                                </h4>
+                            </div>
+                            <div id="collapseOne" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <p>Content</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>

@@ -24,9 +24,11 @@
             <div class="row">
                 <div class="col-lg-4 mx-auto">
                     <img src="assets/img/dr.yahya-big.jpg" alt="dr yahya lengkong" class="img-fluid mb-3">
-                    <div class="d-flex ">
-                        <button class="mx-auto btn btn-lg btn-info">Buat janji Konsultasi</button>
-                    </div>
+                    <!-- <div class="d-flex "> -->
+                    <form action="checkout.php" class="d-flex">
+                        <button class="col btn btn-lg btn-info">Buat janji Konsultasi</button>
+                    </form>
+                    <!-- </div> -->
                 </div>
                 <div class="col-lg-8 mt-2 mb-5">
                     <div class="d-flex flex-row justify-content-between">
@@ -74,7 +76,7 @@
                                                             <i class="text-primary icon ion-android-sunny"></i>&nbsp;<span>Pagi</span>
                                                         </div>
                                                         <div class="col-lg-6">
-                                                            <p>08.30 - 14.00 &nbsp;&nbsp;<button class="btn btn-info">Buat Janji</button></p>
+                                                            <p>08.30 - 14.00 &nbsp;&nbsp;<a href="checkout.php" class="btn btn-info">Buat Janji</a></p>
                                                         </div>
                                                     </div>
                                                     <hr>
@@ -83,7 +85,7 @@
                                                             <i class="text-primary icon ion-ios-partlysunny-outline"></i>&nbsp;<span>Sore</span>
                                                         </div>
                                                         <div class="col-lg-6">
-                                                            <p>17.00 - 19.30 &nbsp;&nbsp;<button class="btn btn-info">Buat Janji</button></p>
+                                                            <p>17.00 - 19.30 &nbsp;&nbsp;<a href="checkout.php" class="btn btn-info">Buat Janji</a></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -106,7 +108,7 @@
                                                             <i class="text-primary icon ion-android-sunny"></i>&nbsp;<span>Pagi</span>
                                                         </div>
                                                         <div class="col-lg-6">
-                                                            <p>08.30 - 14.00 &nbsp;&nbsp;<button class="btn btn-info">Buat Janji</button></p>
+                                                            <p>08.30 - 14.00 &nbsp;&nbsp;<a href="checkout.php" class="btn btn-info">Buat Janji</a></p>
                                                         </div>
                                                     </div>
                                                     <hr>
@@ -115,7 +117,7 @@
                                                             <i class="text-primary icon ion-ios-partlysunny-outline"></i>&nbsp;<span>Sore</span>
                                                         </div>
                                                         <div class="col-lg-6">
-                                                            <p>17.00 - 19.30 &nbsp;&nbsp;<button class="btn btn-info">Buat Janji</button></p>
+                                                            <p>17.00 - 19.30 &nbsp;&nbsp;<a href="checkout.php" class="btn btn-info">Buat Janji</a></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -138,7 +140,7 @@
                                                             <i class="text-primary icon ion-android-sunny"></i>&nbsp;<span>Pagi</span>
                                                         </div>
                                                         <div class="col-lg-6">
-                                                            <p>08.30 - 14.00 &nbsp;&nbsp;<button class="btn btn-info">Buat Janji</button></p>
+                                                            <p>08.30 - 14.00 &nbsp;&nbsp;<a href="checkout.php" class="btn btn-info">Buat Janji</a></p>
                                                         </div>
                                                     </div>
                                                 </div>

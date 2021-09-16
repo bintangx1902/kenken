@@ -39,8 +39,8 @@
 
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="#manfaat">Manfaat</a></li>
-                <li class="nav-item"><a class="nav-link" href="#metode">Metode</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php#manfaat">Manfaat</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php#metode">Metode</a></li>
                 <li class="nav-item"><a class="nav-link" href="daftar-dokter.php">Daftar Psikiater</a></li>
                 <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Dropdown </a>
                     <div class="dropdown-menu">

@@ -40,7 +40,7 @@
 
                     <div class="form-group row">
                         <label for="ttime" class="col-sm-2 col-form-label">Pada Jam : </label>
-                        <div class="col-sm-2">
+                        <div class="col-sm-10">
                             <input type="time" class="form-control">
                         </div>
                     </div>
@@ -52,34 +52,57 @@
                         </div>
                     </div>
 
-                    <fieldset class="form-group row">
-                        <legend class="col-form-label col-sm-2 float-sm-left pt-0">Metode Pembayaran</legend>
-                        <div class="col-sm-10">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                                <label class="form-check-label" for="gridRadios1">
-                                    Pembayaran Online Via bank
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                                <label class="form-check-label" for="gridRadios2">
-                                    Bayar di Tempat
-                                </label>
-                            </div>
-                            <div class="form-check disabled">
-                                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-                                <label class="form-check-label" for="gridRadios3">
-                                    Pembayaran dengan <em>E-Wallet</em>
-                                </label>
-                            </div>
-                        </div>
-                    </fieldset>
-
                     <div class="form-group row">
-                        <label for="v-acc" class="col-sm-2 col-form-label">Nomor Pembayaran </label>
+                        <label for="cont" class="col-sm-2 col-form-label">Metode Pembayaran</label>
                         <div class="col-sm-10">
-                            <input type="text" value="23344455555" class="form-control" disabled>
+                            <div class="accordion" id="accordionExample" id="cont">
+                                <div class="card">
+                                    <div class="card-header" id="headingOne">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                Pembayaran via <em>E-Bankin</em>
+                                            </button>
+                                        </h2>
+                                    </div>
+
+                                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                        <div class="card-body mb-0">
+                                            <input type="text" name="p" id="p" value="058889995656565" class="form-control" disabled>
+                                        </div>
+                                        <div class="card-body">
+                                            <input type="text" name="np" id="np" placeholder="Masukan Unique Number Pembayaran" class="form-control">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingTwo">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Pembayaran Secara Lansung Ditempat
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            <input type="text" name="e" id="e" value="88995238536" class="form-control" disabled>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header" id="headingThree">
+                                        <h2 class="mb-0">
+                                            <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" disabled>
+                                                Pembayaran Via <em>E-walle</em>
+                                            </button>
+                                        </h2>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                        <div class="card-body">
+                                            And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
@@ -94,6 +117,7 @@
     </div>
 
     <?php include "footer.php"; ?>
+
 </body>
 
 </html>
