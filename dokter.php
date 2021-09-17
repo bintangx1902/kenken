@@ -21,7 +21,7 @@
 
     <div class="content">
         <div class="container">
-            <div class="row">
+            <div class="row mx-auto">
                 <div class="col-lg-4 mx-auto">
                     <img src="assets/img/dr.yahya-big.jpg" alt="dr yahya lengkong" class="img-fluid mb-3">
                     <!-- <div class="d-flex "> -->
@@ -47,9 +47,9 @@
                         <div class="card-body">
                             <h4>Lokasi & Jadwal</h4>
                             <hr>
-                            <div class="row">
+                            <div class="row mx-auto">
                                 <div class="col-lg-3">
-                                    <img src="assets/img/siloam.jpg" alt="Siloam Hospital" class="img-fluid">
+                                    <img src="assets/img/siloam.jpg" alt="Siloam Hospital" class="img-fluid ">
                                 </div>
                                 <div class="col-lg-9">
                                     <h4>Siloam Hospital Kebon Jeruk</h4>

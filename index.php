@@ -21,7 +21,7 @@
 
     <div class="bg-transparent py-5 text-dark " id="baca">
         <div class="container py-5">
-            <div class="row " id="cr">
+            <div class="row mx-auto" id="cr">
                 <div class="col-lg-6 mt-5">
                     <img loading='lazy' src="assets/img/Jumbotron.svg" alt="membaca buku" class="img-fluid">
                 </div>
@@ -33,16 +33,16 @@
         </div>
     </div>
 
-    <div class="bg-transparent mybg">
-        <div class="container py-5" id="manfaat">
+    <div class="mybg">
+        <div class="py-5 pl-4">
             <div class="row text-center text-dark mb-5">
                 <div class="col-lg-8 mx-auto">
                     <h2 class="display bold">Manfaat Apa Saja yang Akan Didapat?</h2>
-                    <p class="mt-5 ">Banyak sekali manfaat yang dapat dirasakan bila kita belajar dengan sehat. Terutama pada daya ingat dan rasa ingin belajar lagi dan lagi</p>
+                    <p class=" mx-auto mt-5 ">Banyak sekali manfaat yang dapat dirasakan bila kita belajar dengan sehat. Terutama pada daya ingat dan rasa ingin belajar lagi dan lagi</p>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-7 mx-auto">
+                <div class="col-lg-8 mx-auto">
+                    <div class="container">
                         <ul class="timeline text-dark">
                             <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
                                 <div class="timeline-arrow"></div>
@@ -75,7 +75,6 @@
                         </ul>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -173,36 +172,38 @@
     <div class="bg-transparent ">
         <img src="assets/img/4401.png" alt="Mental Breakdown" class="img-fluid">
         <div class="container ">
-            <div class="row text-center text-dark mb-5 mt-5">
+            <div class="row mx-auto text-center text-dark mb-5 mt-5">
                 <div class="col-lg-8 mx-auto">
                     <h2 class="display bold">Keterkaitan dengan Psikologi</h2>
                     <p class="mt-5 ">Sekarang ini banyak orang yang yang mengalami <em>stress</em> akibat pandemi yang tak kunjung berakhir. Bagi mereka yang sudah bekerja, banyak yang putus asa. Bagi mereka yang masih pelajar, Banyak yang kehilangan motivasi dalam berlajar. Banyak orang tua yang kesulitan dalam membimbing anaknya yang baru masuk pendidikan dasar.</p>
                 </div>
 
-                <div class="row py-5">
-                    <div class="col-lg-7 mx-auto">
-                        <ul class="timeline text-dark">
-                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                                <div class="timeline-arrow"></div>
-                                <h2 class="h5 mb-0">Kehilangan Semangat</h2><span class="small text-gray text-white">PowerUps</span>
-                                <p class="text-small mt-2 font-weight-light text-justify">Sudah banyak orang yang melakukan pekerjaan tanpa semangat mulai dari yang masih dibangku pendidikan hingga ibu rumah tangga.</p>
-                                <p class="text-small mt-2 font-weight-light text-justify">Pandemi ini tidak hanya menghancurkan aspek ekonomi dunia, namun berdampak buruk bagi psikologi seseorang.</p>
-                            </li>
-                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                                <div class="timeline-arrow"></div>
-                                <h2 class="h5 mb-0">Rasa Malas</h2><span class="small text-gray text-white"><i class="fa fa-clock-o mr-1"></i>SuperPower</span>
-                                <p class="text-small mt-2 font-weight-light text-justify">Dimasa ini rasa 70% rasa malas pada seseorang sudah meningkat. Rasa malas ini ditimbulkan karena manajemen waktu yang buruk bagi mereaka yang sudah bekerja, dan bagi mereka yang masi pelajar rasa malas ini ditimbulkan akibat pembelajaran daring.</p>
-                                <p class="text-small mt-2 font-weight-light text-justify">Maka kamu sudah meningkatkan level daya ingatmu secara perlahan dan pasti. Namun, hal ini harus terus dilakukan ya......, karena apabila kamu tidak melakukanya lagi setidaknya 2 hari, daya ingatmu akan menurun</p>
-                            </li>
-                            <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
-                                <div class="timeline-arrow"></div>
-                                <h2 class="h5 mb-0">Mental Breakdown</h2><span class="small text-gray text-white"><i class="fa fa-clock-o mr-1"></i>MagicalUpgrade</span>
-                                <p class="text-small mt-2 font-weight-light">secara umum dipahami atau digambarkan sebagai pengalaman ketika seseorang mengalami tekanan psikologis yang menghadirkan beberapa gejala spesifik. Selama periode ini, penderita tidak dapat berfungsi dalam kehidupan sehari-hari.</p>
-                                <p class="text-small mt-2 font-weight-light">Beberapa gejala mental breakdown di antaranya adalah kesedihan, kekhawatiran, stres berat, perubahan kebiasaan makan dan tidur, ingin menarik diri dari teman dan keluarga, dan merasa kewalahan.</p>
-                            </li>
+                <div class="col-lg-8 mx-auto">
 
-                        </ul>
-                    </div>
+
+                    <ul class="timeline text-dark">
+                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0">Kehilangan Semangat</h2><span class="small text-gray text-white">PowerUps</span>
+                            <p class="text-small mt-2 font-weight-light text-justify">Sudah banyak orang yang melakukan pekerjaan tanpa semangat mulai dari yang masih dibangku pendidikan hingga ibu rumah tangga.</p>
+                            <p class="text-small mt-2 font-weight-light text-justify">Pandemi ini tidak hanya menghancurkan aspek ekonomi dunia, namun berdampak buruk bagi psikologi seseorang.</p>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0">Rasa Malas</h2><span class="small text-gray text-white"><i class="fa fa-clock-o mr-1"></i>SuperPower</span>
+                            <p class="text-small mt-2 font-weight-light text-justify">Dimasa ini rasa 70% rasa malas pada seseorang sudah meningkat. Rasa malas ini ditimbulkan karena manajemen waktu yang buruk bagi mereaka yang sudah bekerja, dan bagi mereka yang masi pelajar rasa malas ini ditimbulkan akibat pembelajaran daring.</p>
+                            <p class="text-small mt-2 font-weight-light text-justify">Maka kamu sudah meningkatkan level daya ingatmu secara perlahan dan pasti. Namun, hal ini harus terus dilakukan ya......, karena apabila kamu tidak melakukanya lagi setidaknya 2 hari, daya ingatmu akan menurun</p>
+                        </li>
+                        <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                            <div class="timeline-arrow"></div>
+                            <h2 class="h5 mb-0">Mental Breakdown</h2><span class="small text-gray text-white"><i class="fa fa-clock-o mr-1"></i>MagicalUpgrade</span>
+                            <p class="text-small mt-2 font-weight-light">secara umum dipahami atau digambarkan sebagai pengalaman ketika seseorang mengalami tekanan psikologis yang menghadirkan beberapa gejala spesifik. Selama periode ini, penderita tidak dapat berfungsi dalam kehidupan sehari-hari.</p>
+                            <p class="text-small mt-2 font-weight-light">Beberapa gejala mental breakdown di antaranya adalah kesedihan, kekhawatiran, stres berat, perubahan kebiasaan makan dan tidur, ingin menarik diri dari teman dan keluarga, dan merasa kewalahan.</p>
+                        </li>
+
+                    </ul>
+
+
                 </div>
 
             </div>

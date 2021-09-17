@@ -137,7 +137,7 @@
                             </div>
                         </div>
 
-                        <div class="row">
+                        <div class="row mx-auto">
                             <?php for ($doc = 0; $doc < 5; $doc++) { ?>
                                 <div class="col-lg-10 mx-auto mb-4">
                                     <div class="card">

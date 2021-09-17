@@ -1,6 +1,6 @@
 <footer class="footer-clean ">
     <div class="container ">
-        <div class="row justify-content-center ">
+        <div class="row justify-content-center mx-auto">
             <div class="col-sm-4 col-md-3 item ">
                 <h4 class="text-primary">KenKen</h4>
                 <p>Tempat cari Pskiater terbaik, cepat dapat di percaya. Semua Psikiater sangat terampil. </p>

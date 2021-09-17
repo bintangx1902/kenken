@@ -42,13 +42,19 @@
                 <li class="nav-item"><a class="nav-link" href="index.php#manfaat">Manfaat</a></li>
                 <li class="nav-item"><a class="nav-link" href="index.php#metode">Metode</a></li>
                 <li class="nav-item"><a class="nav-link" href="daftar-dokter.php">Daftar Psikiater</a></li>
-                <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-toggle="dropdown" href="#">Dropdown </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="#">First Item</a>
-                        <a class="dropdown-item" href="#">Second Item</a>
-                        <a class="dropdown-item" href="#">Third Item</a>
+                <li class="nav-item dropdown">
+
+                    <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
                     </div>
+
                 </li>
+
             </ul>
         </div>
     </div>
