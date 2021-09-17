@@ -41,7 +41,7 @@
                     <p class=" mx-auto mt-5 ">Banyak sekali manfaat yang dapat dirasakan bila kita belajar dengan sehat. Terutama pada daya ingat dan rasa ingin belajar lagi dan lagi</p>
                 </div>
 
-                <div class="col-lg-8 mx-auto">
+                <div class="col-lg-7 mx-auto">
                     <div class="container">
                         <ul class="timeline text-dark">
                             <li class="timeline-item bg-white rounded ml-3 p-4 shadow">

@@ -28,6 +28,9 @@
                     <form action="checkout.php" class="d-flex">
                         <button class="col btn btn-lg btn-info">Buat janji Konsultasi</button>
                     </form>
+                    <form action="checkout-meet.php" class="my-2">
+                        <button class="col btn btn-lg btn-info"><em>Online Meet</em> dengan Dokter</button>
+                    </form>
                     <!-- </div> -->
                 </div>
                 <div class="col-lg-8 mt-2 mb-5">

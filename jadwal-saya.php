@@ -30,6 +30,7 @@
                             <th scope="col">#</th>
                             <th scope="col">Dengan Dokter</th>
                             <th scope="col">Pada Jam dan Tanggal</th>
+                            <th scope="col">Metode </th>
                             <th scope="col">Status</th>
                         </tr>
                     </thead>
@@ -45,6 +46,18 @@
                                     <?php
                                     } else { ?>
                                         25 September 2021 - 10.45
+                                    <?php } ?>
+                                </td>
+                                <td>
+                                    <?php if ($sc < 3) {
+                                        if ($sc == 0) { ?>
+                                            <a href="meet.php"><span class="text-primary"><i class="icon ion-videocamera"></i> <em>Online Meet</em></span></a>
+                                        <?php } else { ?>
+                                            <span class="text-secondary"><i class="icon ion-videocamera"></i> <em>Online Meet</em></span>
+                                        <?php } ?>
+
+                                    <?php } else { ?>
+                                        <span class="text-info"><i class="icon ion-ios-stopwatch"></i> Temu Langsung</span>
                                     <?php } ?>
                                 </td>
                                 <td>

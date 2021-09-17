@@ -1,6 +1,6 @@
 <?php ?>
 <!-- modal start -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
@@ -31,7 +31,7 @@
 
 <nav class="navbar sticky-top navbar-light navbar-expand-md navigation-clean">
     <div class="container">
-        <a data-toggle="modal" data-target="#exampleModal1" class="navbar-brand">健研</a>
+        <a data-toggle="modal" href="#exampleModal1" data-target="#exampleModal1" class="navbar-brand">健研</a>
 
         <button class="navbar-toggler" data-target="#navbarText" data-toggle="collapse" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span>
@@ -39,17 +39,17 @@
 
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="index.php#manfaat">Manfaat</a></li>
+                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="index.php#metode">Metode</a></li>
                 <li class="nav-item"><a class="nav-link" href="daftar-dokter.php">Daftar Psikiater</a></li>
                 <li class="nav-item dropdown">
 
                     <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown link
+                        Menu Lainnya
                     </a>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="jadwal-saya.php">Jadwal Saya</a>
+                        <a class="dropdown-item" href="tutorial.php">Tutorial Pembayaran</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
 
