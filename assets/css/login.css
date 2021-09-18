@@ -14,3 +14,14 @@
     bottom: 1rem;
     color: white;
 }
+
+.btn-google {
+    background-color: #00a1f1 !important;
+    color: white;
+    border-color: #006CA2;
+}
+
+.btn-google:hover {
+    color: white;
+    background-color: #006CA2 !important;
+}

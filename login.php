@@ -41,7 +41,7 @@
                         <button type="submit" class="btn btn-info w-100">Login</button>
                     </div>
                     <div class="form-group">
-                        <a type="button" class="btn btn-secondary w-100" href="">
+                        <a type="button" class="btn btn-google w-100" href="">
                             <i class="fab fa-google"></i>
                             Google Login
                         </a>
