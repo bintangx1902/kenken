@@ -1,0 +1,85 @@
+.float {
+    position: fixed;
+    width: 600px;
+    height: 600px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #0C9;
+    color: #FFF;
+    text-align: center;
+}
+
+@media (max-width:300px) {
+    .float {
+        position: fixed;
+        width: 200px;
+        height: 100px;
+        bottom: 20px;
+        right: 20px;
+        background-color: #0C9;
+        color: #FFF;
+        text-align: center;
+        align-self: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 300px) and (max-width:386px) {
+    .float {
+        position: fixed;
+        width: 220px;
+        height: 200px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #0C9;
+        color: #FFF;
+        text-align: center;
+        align-self: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 386px) and (max-width:750px) {
+    .float {
+        position: fixed;
+        width: 320px;
+        height: 200px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #0C9;
+        color: #FFF;
+        text-align: center;
+        align-self: center;
+        align-items: center;
+    }
+}
+
+@media (min-width:750px) and (max-width:992px) {
+    .float {
+        position: fixed;
+        width: 320px;
+        height: 200px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #0C9;
+        color: #FFF;
+        text-align: center;
+        align-self: center;
+        align-items: center;
+    }
+}
+
+@media (min-width:992px) {
+    .float {
+        position: fixed;
+        width: 370px;
+        height: 250px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #0C9;
+        color: #FFF;
+        text-align: center;
+        align-self: center;
+        align-items: center;
+    }
+}
