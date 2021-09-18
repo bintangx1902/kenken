@@ -50,7 +50,7 @@
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                         <a class="dropdown-item" href="jadwal-saya.php">Jadwal Saya</a>
                         <a class="dropdown-item" href="tutorial.php">Tutorial Pembayaran</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
+                        <a class="dropdown-item" href="reset-pass.php">Lupa Password</a>
                     </div>
 
                 </li>
