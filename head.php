@@ -40,8 +40,8 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="index.php#metode">Metode</a></li>
                 <li class="nav-item"><a class="nav-link" href="daftar-dokter.php">Daftar Psikiater</a></li>
+                <li class="nav-item"><a class="nav-link" href="login.php">Login</a></li>
                 <li class="nav-item dropdown">
 
                     <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
