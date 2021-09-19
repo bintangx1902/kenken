@@ -42,7 +42,7 @@
                                     <div class="input-group">
                                         <div class="w-100 row mx-auto">
                                             <input type="text" name="dname" id="dname" class="form-control col-md-10 col-sm-8">
-                                            <button class="btn btn-primary ml-1">Cari Dokter</button>
+                                            <button class="col btn btn-primary ml-auto">Cari Dokter</button>
                                         </div>
                                     </div>
 

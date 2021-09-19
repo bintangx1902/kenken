@@ -220,13 +220,13 @@
 
         <div class="card bg-transparent mybg border-0">
             <div class="card-body">
-                <div class="container">
-                    <div class="d-flex justify-content-end">
-                        <a href="" data-toggle="modal" data-target="#modalComment" class="text-info">Tambahkan komentar</a>
+                <div class="container btn-block1 sticky-top">
+                    <div class="d-flex justify-content-end sticky-top mt-2">
+                        <a href="" style="background-color: #FFD29D;" data-toggle="modal" data-target="#modalComment" class="text-info ">Tambahkan komentar</a>
 
                     </div>
-
-
+                </div>
+                <div class="container">
                     <?php for ($cm = 0; $cm < 6; $cm++) { ?>
                         <div>
                             <div class="font-weight-bold mt-5">Nama <?php echo $cm; ?></div>

@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>lomba</title>
+    <title>KenKen - Home</title>
     <?php include 'meta.php'; ?>
     <link rel="stylesheet" href="assets/css/timeline.css">
 </head>
@@ -156,7 +156,7 @@
     <div class="bg-transparent pt-5 mybg" id="konsultasi">
         <div class="container py-5">
 
-            <div class="row">
+            <div class="row mx-auto">
                 <div class="col-lg-6 text-justify">
                     <h2>Konsultasi</h2>
                     <p>Apabila kamu mengalami kesulitan dalam mengelola waktu, melatih fokus, dan merasa butuh instruktor atau pembimbing.</p>
@@ -209,6 +209,44 @@
             </div>
         </div>
     </div>
+
+    <div class="bg-transparent bg-pink py-5">
+        <div class="container">
+            <div class="row mx-auto,">
+                <div class="col-lg-6">
+                    <img src="assets/img/5341.jpg" alt="Join Us" class="img-fluid">
+                </div>
+                <div class="col-lg-6 my-auto">
+
+                    <form action="" class=" mx-auto">
+                        <div class="form-group row mx-auto">
+                            <label for="" class="col-sm-3 col-form-label">Email : </label>
+                            <div class="col-sm-9">
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row mx-auto">
+                            <label for="" class="col-sm-3 col-form-label">Nama : </label>
+                            <div class="col-sm-9">
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="form-group row mx-auto">
+                            <label for="" class="col-sm-3 col-form-label">No. Telepon : </label>
+                            <div class="col-sm-9">
+                                <input type="text" name="" id="" class="form-control">
+                            </div>
+                        </div>
+                        <div class="col">
+                            <button class="btn btn-primary">Siap Berlangganan</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <?php include 'footer.php'; ?>
 </body>

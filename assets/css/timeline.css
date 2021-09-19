@@ -64,3 +64,7 @@ li.timeline-item::before {
         font-size: 2.5rem !important;
     }
 }
+
+.bg-pink {
+    background-color: #FDEDEE !important;
+}

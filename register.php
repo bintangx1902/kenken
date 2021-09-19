@@ -9,7 +9,7 @@
 <body>
     <?php include "head.php"; ?>
     <div class="container-fluid">
-        <div class="main-row row">
+        <div class="main-row row mx-auto">
             <div class="ilustration-container col-md-7 bg-info d-md-flex d-none">
 
                 <img src="assets/img/4864.png" alt="Login" class="img-fluid mt-5">

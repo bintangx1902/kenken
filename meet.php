@@ -17,7 +17,7 @@
 
     </div>
 
-    <?php include "footer.php"; ?>
+    <?php include "script.php"; ?>
     <div class="d-flex justify-content-center float"><video autoplay="true" id="videoElement" class="img-fluid"></video></div>
     <script src="assets/js/webcam.js"></script>
 </body>
