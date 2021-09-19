@@ -8,7 +8,7 @@
 
 <body>
     <?php include "head.php"; ?>
-    <div class="container-fluid">
+    <div class="container-fluid pl-0">
         <div class="main-row row mx-auto">
             <div class="ilustration-container col-md-7 bg-info d-md-flex d-none">
 
@@ -50,7 +50,7 @@
                         Lupa password? <a class="button text-decoration-none secondaryAction" href="reset-pass.php">reset password</a>
                     </div>
                     <div class="form-group" style="text-align: center;">
-                        Belum punya akun? <a href="" class="text-decoration-none">buat akun baru</a>
+                        Belum punya akun? <a href="register.php" class="text-decoration-none">buat akun baru</a>
                     </div>
                 </form>
             </div>

@@ -8,7 +8,7 @@
 
 <body>
     <?php include "head.php"; ?>
-    <div class="container-fluid">
+    <div class="container-fluid pl-0">
         <div class="main-row row mx-auto">
             <div class="ilustration-container col-md-7 bg-info d-md-flex d-none">
 
